@@ -1,0 +1,200 @@
+@media screen and (max-width:768px){
+  .Header{
+    width: 100%;
+  }
+  .header_top{
+    width: 100%;
+  }
+  .header_bottom{
+    height: 67px;
+  }
+  .nav{display: none;}
+  .search_icon{
+    right: 140px;
+  }
+  .shop_icon{
+    padding-right: 20px;
+  }
+  .search input{display: none;}
+  .MainVisual{width: 100%;}
+  .MainVisual video{
+    display: none;
+  }
+  .MainVisual .res_video{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .MainVisual .video{
+    width: 100%;
+    height: auto;
+  }
+  .banner{
+    width: 100%;
+  }
+  .banner_wrap{
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .banner .banner_left{
+    text-align: center;
+  }
+  .banner .banner_left p{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+  .banner .banner_left span{
+    font-size: 1rem;
+  }
+  .banner_right {
+    width: 100%;
+  }
+  .banner_right img{
+    width: 100%;
+    height: auto;
+    margin-bottom: -75px;
+  }
+  .ProductAll{
+    width: 100%;
+  }
+  .ProductAllInner{
+    width: 100%;
+  }
+  .ProductTitle .Top p{
+    font-size: 1.6rem;
+    padding: 6rem 0;
+    padding-left: 10px;
+    position: relative;
+  }
+  .ProductTitle .Bottom{
+    width: 96%;
+    margin: auto;
+  }
+  .Bottom select{
+    border: none;
+    border: 1px solid #bbbbbb;
+    padding: 5px 1rem;
+    font-weight: bold;
+  }
+  .ProductItem{
+  }
+  .ProductCard{
+    width: 49.5%;
+    height: auto;
+    padding: 20px 0;
+  }
+  .ProductCard .price h2{
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  .ProductCard .price{
+    flex-direction: column;
+    gap: 1rem ;
+  }
+  .Size{
+    padding-top: 1rem;
+    width: 90%;
+  }
+  .FooterTop{
+    width: 100%;
+    margin: auto;
+  }
+  .top_left{
+    display: none;
+  }
+  .top_right{
+    width: 100%;
+  }
+  .Footer{width: 100%;}
+  .news{
+    padding-left: 3rem;
+    width: 90%;
+  }
+  .news input{
+    width: 80%;
+  }
+  .more{
+    padding: 20px 0;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+  }
+  .train{
+    position: relative;
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+  }
+  .train span{
+    position: absolute;
+    top: 23px;
+    left: 140px;
+  }
+  .Login{width: 100%;}
+  .login_wrap{
+    width: 90%;
+  }
+  .login_box{
+    margin: 100px auto;
+  }
+  .login span{
+    font-size: 1.3rem;
+  }
+  .login span:nth-child(1)::after{
+    left: 0px;
+    width: 100%;
+    top: 35px;
+  }
+  .check span{
+    font-size: 0.9rem;
+  }
+  .kakao{
+    font-size: 0.9rem;
+  }
+  .kakao span{
+    font-weight: bold;
+  }
+  .naver{
+    font-size: 0.9rem;
+    font-weight: 800;
+  }
+  .naver span{
+    font-weight: 800;
+  }
+  .ProductDetail{
+    padding-bottom: 4rem;
+  }
+  .detail_path{
+    padding-left: 12px;
+    padding-bottom: 0;
+  }
+  .detail_path a{
+    font-size: 0.7rem;
+    font-weight: 800;
+  }
+  .ProductDetailInner{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .detail_left img{
+    width: 100%;
+  }
+  .detail_right{
+    padding-left: 0rem;
+  }
+  .item_btn a:nth-child(1){
+    width: 50%;
+  }
+  .item_btn a:nth-child(2){
+    width: 50%;
+  }
+  .item_detail{
+    padding-top: 2rem;
+  }
+  .item_btn{
+    padding-top: 4rem;
+  }
+}
